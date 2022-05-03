@@ -144,7 +144,7 @@ warp() {
 	green "请选择你接下来使用的脚本"
 	echo "                            "
 	echo "1. Misaka-WARP"
-	echo "2. fscarmen"
+	echo "2. fscarmen(推荐)"
 	echo "3. fscarmen-docker"
 	echo "4. fscarmen warp解锁奈飞流媒体脚本"
 	echo "5. P3TERX"
@@ -155,7 +155,7 @@ warp() {
 		1) wget -N https://raw.githubusercontents.com/Misaka-blog/Misaka-WARP-Script/master/misakawarp.sh && bash misakawarp.sh ;;
 		2) wget -N https://cdn.jsdelivr.net/gh/fscarmen/warp/menu.sh && bash menu.sh ;;
 		3) wget -N https://cdn.jsdelivr.net/gh/fscarmen/warp/docker.sh && bash docker.sh ;;
-		4) bash <(curl -sSL https://raw.githubusercontent.com/fscarmen/warp_unlock/main/unlock.sh) ;;
+		4) bash <(curl -sSL https://raw.githubusercontents.com/fscarmen/warp_unlock/main/unlock.sh) ;;
 		5) bash <(curl -fsSL git.io/warp.sh) ;;
 		0) menu ;;
 	esac
@@ -218,13 +218,13 @@ xui() {
 	green "请选择你接下来使用的X-ui面板版本"
 	echo "                            "
 	echo "1. 使用X-ui官方原版"
-	echo "2. 使用Misaka魔改版"
+	echo "2. 使用yxdz2020魔改版"
 	echo "                            "
 	echo "0. 返回主菜单"
 	read -p "请输入选项:" xuiNumberInput
 	case "$xuiNumberInput" in
 		1) bash <(curl -Ls https://raw.githubusercontents.com/vaxilu/x-ui/master/install.sh) ;;
-		2) bash <(curl -Ls https://raw.githubusercontent.com/yxdz2020/x-ui/master/install.sh) ;;
+		2) bash <(curl -Ls https://raw.githubusercontents.com/yxdz2020/x-ui/master/install.sh) ;;
 		0) menu ;;
 	esac
 }
