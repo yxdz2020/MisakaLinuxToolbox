@@ -10,7 +10,7 @@
 0. 给这个项目一个Star
 1. 用SSH客户端连接上VPS，输入以下命令（若不是root用户请先`sudo -i`提权）
 ```shell
-wget -N --no-check-certificate https://raw.githubusercontents.com/Misaka-blog/MisakaLinuxToolbox/master/MisakaToolbox.sh && bash MisakaToolbox.sh
+wget -N --no-check-certificate https://raw.githubusercontents.com/yxdz2020/MisakaLinuxToolbox/master/MisakaToolbox.sh && bash MisakaToolbox.sh
 ```
 国内特供版：(部分功能**无法使用**)
 ```shell
@@ -105,7 +105,9 @@ WARP脚本：https://github.com/fscarmen/warp
 
 宝塔国际版（aapanel）：https://www.aapanel.com/
 
-X-ui: https://github.com/vaxilu/x-ui
+官方X-ui: https://github.com/vaxilu/x-ui
+
+魔改X-ui：https://github.com/FranzKafkaYu/x-ui
 
 Aria2: https://github.com/P3TERX/aria2.sh
 
