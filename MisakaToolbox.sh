@@ -224,7 +224,7 @@ xui() {
 	read -p "请输入选项:" xuiNumberInput
 	case "$xuiNumberInput" in
 		1) bash <(curl -Ls https://raw.githubusercontents.com/vaxilu/x-ui/master/install.sh) ;;
-		2) wget -N --no-check-certificate https://raw.githubusercontents.com/Misaka-blog/x-ui/master/install.sh && bash install.sh ;;
+		2) bash <(curl -Ls https://raw.githubusercontent.com/yxdz2020/x-ui/master/install.sh) ;;
 		0) menu ;;
 	esac
 }
