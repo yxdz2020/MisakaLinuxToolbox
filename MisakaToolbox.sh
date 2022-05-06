@@ -2,7 +2,7 @@
 
 # 全局变量
 ver="2.1.9"
-changeLog="新增Misaka魔改版X-ui脚本"
+changeLog="新增yxdz2020魔改版X-ui脚本"
 arch=$(uname -m)
 virt=$(systemd-detect-virt)
 kernelVer=$(uname -r)
